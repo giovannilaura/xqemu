@@ -1,0 +1,1 @@
+./qemu-system-xbox -cpu phenom  -smp 8  -machine xbox,short_animation,bootrom=mcpx_1.0.bin  -m 128 -drive file=xbox_harddisk.qcow2,index=0,media=disk,locked=on -drive index=1,media=cdrom,file="$1" -bios xboxd_bios.bin -usb -device usb-hub,bus=usb-bus.0,port=3 -device usb-xbox-gamepad,bus=usb-bus.0,port=3.2
