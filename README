@@ -1,3 +1,6 @@
 Read the documentation in qemu-doc.html or on http://wiki.qemu-project.org
 
 - QEMU team
+
+Fork of xqemu with basic joystick support on /dev/input/js0
+                   and some fixes for some games 
